@@ -74,7 +74,7 @@ title: 在设备上运行
 
 在真机上测试app后再将其发布给用户总是好的。本文档将指导你通过必须的步骤在设备上运行React Native app，为生产做准备。
 
-如果使用创建React Native App来建立工程，可以通过Expo App扫描QR代码在设备上预览app。为了在设备上编译和运行app，需要逐出并从[搭建开发环境](getting-started.md)安装原生代码依赖。
+如果使用Create React Native App来建立工程，可以通过Expo App扫描QR代码在设备上预览app。为了在设备上编译和运行app，需要逐出并从[搭建开发环境](getting-started.md)安装原生代码依赖。
 
 <div class="toggler">
 
@@ -124,13 +124,13 @@ A Mac is required in order to build your app for iOS devices. Alternatively, you
 
 如果没有[Apple developer account](https://developer.apple.com/)，先注册。
 
-在Xcode Project导航中选择project，然后选择mian target（它应该和project共享同样的名字）。查找"General"标签。前往"Signing"并确保在"Team"下拉下选择了开发者账号或团队。tests target（以Tests结束，在main target下面）所做相同。
+在Xcode Project导航中选择project，然后选择main target（它应该和project共享同样的名字）。查找"General"标签。前往"Signing"并确保在"Team"下拉下选择了开发者账号或团队。tests target（以Tests结束，在main target下面）所做相同。
 
 ![](assets/RunningOnDeviceCodeSigning.png)
 
 ### 3. 编译并运行应用
 
-如果一切建立正确，设备会在Xcode toolbar 中被列为build target，也会出现在设备面板里(`⇧⌘2`)。现在可以按下 **Build and run** 按钮(`⌘R`)或从**Product**菜单中选择**Run**。app会立刻启动在设备上。
+如果一切设置正确，设备会在Xcode toolbar 中被列为build target，也会出现在设备面板里(`⇧⌘2`)。现在可以按下 **Build and run** 按钮(`⌘R`)或从**Product**菜单中选择**Run**。app会立刻启动在设备上。
 
 ![](assets/RunningOnDeviceReady.png)
 
