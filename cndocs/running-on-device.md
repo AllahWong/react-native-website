@@ -236,7 +236,7 @@ emulator-5554 offline   # Google emulator
 
 > If you have any issues, ensure that your Mac and device are on the same network and can reach each other. Many open wireless networks with captive portals are configured to prevent devices from reaching other devices on the network. You may use your device's Personal Hotspot feature in this case.
 
-当尝试连接到开发服务器时，可能得到一个[red screen with an error](debugging.md#in-app-errors-and-warnings)说：
+当尝试连接到开发服务器时，可能得到一个[红屏报错](debugging.md#in-app-errors-and-warnings)说：
 
 
 > Connection to [http://localhost:8081/debugger-proxy?role=client]() timed out. Are you running node proxy? If you are running on the device, check if you have the right IP address in `RCTWebSocketExecutor.m`.
